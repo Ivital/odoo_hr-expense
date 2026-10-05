@@ -121,3 +121,23 @@ msgstr "Витрати: тест винятку чернетки витрат"
 #: model:exception.rule,name:hr_expense_exception.exl_excep_qty_check
 msgid "Quantity not positive"
 msgstr "Кількість не є додатною"
+
+#. module: hr_expense_exception
+#: model:exception.rule,description:hr_expense_exception.exl_excep_qty_check
+msgid "Expense line quantity must be positive"
+msgstr "Кількість у рядку витрат має бути додатною"
+
+#. module: hr_expense_exception
+#: model:ir.model,name:hr_expense_exception.model_expense_sheet_exception_confirm
+msgid "Expense report exception wizard"
+msgstr "Майстер винятку звіту про витрати"
+
+#. module: hr_expense_exception
+#: model:exception.rule,description:hr_expense_exception.ex_excep_no_email
+msgid "No Email for Employee"
+msgstr "Без email працівнику"
+
+#. module: hr_expense_exception
+#: model:exception.rule,name:hr_expense_exception.ex_excep_no_email
+msgid "No email on employee"
+msgstr "Без email працівнику"

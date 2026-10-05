@@ -120,3 +120,8 @@ msgstr "Власник підзвітних коштів"
 #: model_terms:ir.actions.act_window,help:hr_expense_petty_cash.action_petty_cash
 msgid "Create a new petty cash holder"
 msgstr "Створити нового відповідального за дрібну готівку"
+
+#. module: hr_expense_petty_cash
+#: model:ir.model.constraint,message:hr_expense_petty_cash.constraint_petty_cash_partner_uniq
+msgid "Petty Cash Holder must be unique!"
+msgstr "Власник дрібної готівки має бути унікальним!"

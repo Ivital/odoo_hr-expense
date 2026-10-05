@@ -227,3 +227,54 @@ msgstr "Після створення витрати надішліть її к�
 msgid "Optional clearing product is used during clear advance"
 msgstr ""
 "Необов’язковий товар очищення використовується під час закриття авансу"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense_sheet__clearing_residual
+msgid "Amount to clear of this expense sheet in company currency"
+msgstr "Сума до закриття цього звіту про витрати у валюті компанії"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense__av_line_id
+msgid "Expense created from this advance expense line"
+msgstr "Витрата, створена з цього рядка авансової витрати"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense_sheet__amount_payable
+msgid "Final regiter payment amount even after advance clearing"
+msgstr "Остаточна зареєстрована сума платежу навіть після закриття авансу"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense_sheet__clearing_journal_id
+msgid "Miscellaneous journal used to post the clearing journal entry."
+msgstr ""
+"Журнал різних операцій, що використовується для проведення проводки "
+"закриття."
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense__clearing_product_id
+msgid ""
+"Optional: On the clear advance, the clearing product will create default "
+"product line."
+msgstr ""
+"Необов’язково: під час закриття авансу товар для взаємозаліку створить "
+"типовий рядок товару."
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense_sheet__advance_sheet_residual
+msgid "Remaining amount to clear the selected advance sheet"
+msgstr "Залишкова сума для закриття вибраного авансового листа"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense_sheet__clearing_sheet_ids
+msgid "Show reference clearing on advance"
+msgstr "Показувати посилання на закриття в авансі"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense_sheet__payment_return_ids
+msgid "Show reference return advance on advance"
+msgstr "Показувати посилання на повернення авансу в авансі"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense_sheet__advance_sheet_id
+msgid "Show remaining advance of this employee"
+msgstr "Показувати залишок авансу цього працівника"

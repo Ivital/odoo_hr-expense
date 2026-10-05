@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense_sequence_option.field_ir_sequence_option__model
 msgid "Apply On Model"
 msgstr "Застосувати до моделі"
+
+#. module: hr_expense_sequence_option
+#: model:ir.model,name:hr_expense_sequence_option.model_ir_sequence_option
+msgid "Sequence Option Base Model"
+msgstr "Базова модель параметра послідовності"

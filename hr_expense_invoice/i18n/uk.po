@@ -77,3 +77,18 @@ msgstr ""
 "<span>\n"
 "                        Витрата\n"
 "                    </span>"
+
+#. module: hr_expense_invoice
+#: model:mail.message.subtype,description:hr_expense_invoice.mt_expense_approved_inherited
+msgid "Expense report approved"
+msgstr "Звіт про витрати схвалено"
+
+#. module: hr_expense_invoice
+#: model:ir.model.fields,help:hr_expense_invoice.field_account_bank_statement_line__source_invoice_expense_id
+#: model:ir.model.fields,help:hr_expense_invoice.field_account_move__source_invoice_expense_id
+msgid ""
+"Reference to the expense with a linked invoice that generated thistransfer "
+"journal entry"
+msgstr ""
+"Посилання на витрату з пов’язаним рахунком, яка створила цей бухгалтерський "
+"запис переміщення"

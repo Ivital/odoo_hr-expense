@@ -99,3 +99,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense_tier_validation.hr_expense_sheet_view_search
 msgid "My Expense report to review"
 msgstr "Мій звіт про витрати на перегляд"
+
+#. module: hr_expense_tier_validation
+#: model:ir.model,name:hr_expense_tier_validation.model_tier_validation_exception
+msgid "Tier Validation Exceptions"
+msgstr "Винятки багаторівневої валідації"
