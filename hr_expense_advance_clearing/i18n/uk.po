@@ -45,3 +45,105 @@ msgstr "Кліринг"
 #: model:ir.ui.menu,name:hr_expense_advance_clearing.menu_my_hr_expense_sheet
 msgid "Expenses"
 msgstr "Витрати"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.actions.act_window,name:hr_expense_advance_clearing.action_hr_expense_sheet_advance_clearing
+msgid "Advance Clearing"
+msgstr "Закриття авансу"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_employee_base.py:0
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_employee__advance_sheet_ids
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_employee_base__advance_sheet_ids
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_employee_public__advance_sheet_ids
+msgid "Advance Sheet"
+msgstr "Авансовий лист"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__clearing_residual
+msgid "Amount to clear"
+msgstr "Сума до закриття"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__advance_sheet_id
+#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_hr_expense_sheet_form
+msgid "Clear Advance"
+msgstr "Очистити аванс"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__clearing_count
+msgid "Clearing Count"
+msgstr "Кількість закриттів авансу"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__clearing_journal_id
+msgid "Clearing Journal"
+msgstr "Журнал закриття авансу"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense__clearing_product_id
+msgid "Clearing Product"
+msgstr "Товар закриття авансу"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__clearing_sheet_ids
+msgid "Clearing Sheet"
+msgstr "Відомість закриття авансу"
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_hr_expense_sheet_form
+msgid "Clearings"
+msgstr "Кліринги"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_res_company__clearing_journal_id
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_res_config_settings__clearing_journal_id
+msgid "Default Clearing Journal"
+msgstr "Типовий журнал клірингу"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense__advance
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__advance
+#: model:product.template,name:hr_expense_advance_clearing.product_emp_advance_product_template
+msgid "Employee Advance"
+msgstr "Аванс працівника"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model,name:hr_expense_advance_clearing.model_hr_expense
+#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_expense_view_search
+msgid "Expense"
+msgstr "Витрата"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__amount_payable
+msgid "Payable Amount"
+msgstr "Сума до сплати"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py:0
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__payment_return_ids
+msgid "Payment Return"
+msgstr "Повернення платежу"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense__av_line_id
+msgid "Ref: Advance"
+msgstr "Посилання: аванс"
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_hr_expense_sheet_form
+msgid "Return"
+msgstr "Повернути"
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_account_payment_search
+#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_hr_expense_sheet_form
+msgid "Return Advance"
+msgstr "Повернути аванс"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__return_count
+msgid "Return Count"
+msgstr "Кількість повернень"

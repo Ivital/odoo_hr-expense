@@ -40,3 +40,29 @@ msgstr "Стан аркуша"
 #: model:ir.model.fields,field_description:hr_expense_invoice.field_hr_expense__invoice_id
 msgid "Vendor Bill"
 msgstr "Рахунок постачальника"
+
+#. module: hr_expense_invoice
+#: model:mail.message.subtype,name:hr_expense_invoice.mt_expense_approved_inherited
+msgid "Approved"
+msgstr "Схвалено"
+
+#. module: hr_expense_invoice
+#: model_terms:ir.ui.view,arch_db:hr_expense_invoice.hr_expense_sheet_form_view_inherit_sale_expense
+msgid "Create Vendor Bill"
+msgstr "Створити рахунок постачальника"
+
+#. module: hr_expense_invoice
+#: model:ir.model.fields,field_description:hr_expense_invoice.field_hr_expense_sheet__invoice_count
+msgid "Invoice Count"
+msgstr "Кількість рахунків"
+
+#. module: hr_expense_invoice
+#: model:ir.model.fields,field_description:hr_expense_invoice.field_account_bank_statement_line__source_invoice_expense_id
+#: model:ir.model.fields,field_description:hr_expense_invoice.field_account_move__source_invoice_expense_id
+msgid "Source Invoice Expense"
+msgstr "Вихідні витрати рахунку"
+
+#. module: hr_expense_invoice
+#: model:ir.model.fields,field_description:hr_expense_invoice.field_hr_expense__transfer_move_ids
+msgid "Transfer Move"
+msgstr "Переміщення перенесення"

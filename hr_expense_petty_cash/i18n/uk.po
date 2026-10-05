@@ -75,3 +75,43 @@ msgstr "Макс. ліміт"
 #: model_terms:ir.ui.view,arch_db:hr_expense_petty_cash.view_petty_cash_search
 msgid "Petty Cash"
 msgstr "Дрібна каса"
+
+#. module: hr_expense_petty_cash
+#: model_terms:ir.ui.view,arch_db:hr_expense_petty_cash.view_petty_cash_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: hr_expense_petty_cash
+#: model:ir.model.fields,field_description:hr_expense_petty_cash.field_petty_cash__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: hr_expense_petty_cash
+#: model:ir.model.fields,field_description:hr_expense_petty_cash.field_petty_cash__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: hr_expense_petty_cash
+#: model_terms:ir.ui.view,arch_db:hr_expense_petty_cash.view_petty_cash_list
+msgid "Limit"
+msgstr "Ліміт"
+
+#. module: hr_expense_petty_cash
+#: model:ir.model.fields,field_description:hr_expense_petty_cash.field_petty_cash__account_id
+#: model_terms:ir.ui.view,arch_db:hr_expense_petty_cash.view_petty_cash_search
+msgid "Petty Cash Account"
+msgstr "Рахунок підзвітних коштів"
+
+#. module: hr_expense_petty_cash
+#: model:ir.model.fields,field_description:hr_expense_petty_cash.field_petty_cash__partner_id
+#: model_terms:ir.ui.view,arch_db:hr_expense_petty_cash.hr_expense_sheet_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:hr_expense_petty_cash.hr_expense_view_search_inherit
+#: model_terms:ir.ui.view,arch_db:hr_expense_petty_cash.view_petty_cash_search
+msgid "Petty Cash Holder"
+msgstr "Власник підзвітних коштів"
+
+#. module: hr_expense_petty_cash
+#: model:ir.model.fields,field_description:hr_expense_petty_cash.field_hr_expense__petty_cash_id
+#: model:ir.model.fields,field_description:hr_expense_petty_cash.field_hr_expense_sheet__petty_cash_id
+msgid "Petty cash holder"
+msgstr "Власник підзвітних коштів"
