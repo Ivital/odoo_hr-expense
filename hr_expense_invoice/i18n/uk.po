@@ -66,3 +66,14 @@ msgstr "Вихідні витрати рахунку"
 #: model:ir.model.fields,field_description:hr_expense_invoice.field_hr_expense__transfer_move_ids
 msgid "Transfer Move"
 msgstr "Переміщення перенесення"
+
+#. module: hr_expense_invoice
+#: model_terms:ir.ui.view,arch_db:hr_expense_invoice.view_move_form
+msgid ""
+"<span>\n"
+"                        Expense\n"
+"                    </span>"
+msgstr ""
+"<span>\n"
+"                        Витрата\n"
+"                    </span>"

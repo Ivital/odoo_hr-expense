@@ -106,3 +106,18 @@ msgstr "Основний виняток"
 #: model:ir.actions.act_window,name:hr_expense_exception.action_expense_sheet_exception_confirm
 msgid "Outstanding exceptions to manage"
 msgstr "Невирішені винятки для опрацювання"
+
+#. module: hr_expense_exception
+#: model_terms:ir.ui.view,arch_db:hr_expense_exception.view_hr_expense_sheet_form
+msgid "<strong>There are exceptions blocking this Expense Report:</strong>"
+msgstr "<strong>Є винятки, що блокують цей звіт про витрати:</strong>"
+
+#. module: hr_expense_exception
+#: model:ir.actions.server,name:hr_expense_exception.ir_cron_test_expense_except_ir_actions_server
+msgid "Expense: Test Draft Expense Exception"
+msgstr "Витрати: тест винятку чернетки витрат"
+
+#. module: hr_expense_exception
+#: model:exception.rule,name:hr_expense_exception.exl_excep_qty_check
+msgid "Quantity not positive"
+msgstr "Кількість не є додатною"

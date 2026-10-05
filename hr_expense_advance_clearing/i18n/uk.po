@@ -147,3 +147,83 @@ msgstr "Повернути аванс"
 #: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__return_count
 msgid "Return Count"
 msgstr "Кількість повернень"
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_expense_sheet_view_search
+msgid "Advance (not cleared)"
+msgstr "Аванс (не закритий)"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__advance_sheet_residual
+msgid "Advance Remaining"
+msgstr "Залишок авансу"
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_employee__advance_count
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_employee_base__advance_count
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_employee_public__advance_count
+msgid "Count advance sheet in expense report"
+msgstr "Ураховувати авансову відомість у звіті про витрати"
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.actions.act_window,help:hr_expense_advance_clearing.action_hr_expense_sheet_advance_clearing
+msgid "Create a new expense report"
+msgstr "Створити новий звіт про витрати"
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.res_config_settings_view_form
+msgid ""
+"Default Miscellaneous journal used to post the advance clearing journal "
+"entry."
+msgstr ""
+"Стандартний журнал «Різне», що використовується для проведення запису заліку"
+" авансу."
+
+#. module: hr_expense_advance_clearing
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_res_company__clearing_journal_id
+#: model:ir.model.fields,help:hr_expense_advance_clearing.field_res_config_settings__clearing_journal_id
+msgid ""
+"Default Miscellaneous journal used when posting the advance clearing journal"
+" entry."
+msgstr ""
+"Типовий журнал «Різне», що використовується під час проведення журнального "
+"запису погашення авансу."
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.actions.act_window,help:hr_expense_advance_clearing.action_my_hr_advance_sheet
+msgid "No advance report found. Let's create one!"
+msgstr "Авансового звіту не знайдено. Створімо один!"
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.actions.act_window,help:hr_expense_advance_clearing.action_my_hr_expense_sheet
+msgid "No expense report found. Let's create one!"
+msgstr "Звіту про витрати не знайдено. Створімо один!"
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.actions.act_window,help:hr_expense_advance_clearing.action_my_hr_advance_sheet
+msgid ""
+"Once you have created your advance, submit it to your manager who will "
+"validate it."
+msgstr "Після створення авансу надішліть його керівнику на підтвердження."
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.actions.act_window,help:hr_expense_advance_clearing.action_hr_expense_sheet_advance_clearing
+msgid ""
+"Once you have created your expense, submit it to your manager who will\n"
+"                validate it."
+msgstr ""
+"Після створення витрати надішліть її керівнику, який\n"
+"                її підтвердить."
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.actions.act_window,help:hr_expense_advance_clearing.action_my_hr_expense_sheet
+msgid ""
+"Once you have created your expense, submit it to your manager who will "
+"validate it."
+msgstr "Після створення витрати надішліть її керівнику на підтвердження."
+
+#. module: hr_expense_advance_clearing
+#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_expense_view_form
+msgid "Optional clearing product is used during clear advance"
+msgstr ""
+"Необов’язковий товар очищення використовується під час закриття авансу"
