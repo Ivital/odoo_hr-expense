@@ -92,3 +92,78 @@ msgid ""
 msgstr ""
 "Посилання на витрату з пов’язаним рахунком, яка створила цей бухгалтерський "
 "запис переміщення"
+
+#. module: hr_expense_invoice
+#. odoo-python
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+msgid ""
+"Please specify an expense journal in order to generate"
+"                         accounting entries."
+msgstr "Вкажіть журнал витрат для генерації бухгалтерських проведень."
+
+#. module: hr_expense_invoice
+#. odoo-python
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+msgid ""
+"Please specify if the expenses for this report were paid by"
+"                         the company, or the employee"
+msgstr ""
+"Вкажіть, ким були оплачені витрати цього звіту: компанією чи працівником"
+
+#. module: hr_expense_invoice
+#. odoo-python
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+msgid "Show missing work email employees"
+msgstr "Показувати працівників без робочої електронної адреси"
+
+#. module: hr_expense_invoice
+#. odoo-python
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+msgid ""
+"The work email of some employees is missing. Please add it on"
+"                          the employee form"
+msgstr ""
+"У деяких працівників відсутня робоча електронна адреса. Додайте її у формі "
+"працівника"
+
+#. module: hr_expense_invoice
+#. odoo-python
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+msgid ""
+"Vendor bill amount mismatch!\n"
+"Please make sure amount in vendor bills equal to amount of its expense lines"
+msgstr ""
+"Невідповідність суми рахунку постачальника!\n"
+"Переконайтеся, що сума в рахунках постачальника дорівнює сумі відповідних рядків витрат"
+
+#. module: hr_expense_invoice
+#. odoo-python
+#: code:addons/hr_expense_invoice/models/hr_expense.py:0
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+msgid "Vendor bill state must be Posted"
+msgstr "Рахунок постачальника має бути проведений"
+
+#. module: hr_expense_invoice
+#. odoo-python
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+msgid "You can only generate an accounting entry for approved expense(s)."
+msgstr "Бухгалтерський запис можна створити лише для схвалених витрат."
+
+#. module: hr_expense_invoice
+#. odoo-python
+#: code:addons/hr_expense_invoice/models/account_move.py:0
+msgid ""
+"You can't change the total amount, as there's an expense linked to this "
+"invoice."
+msgstr ""
+"Не можна змінити загальну суму, оскільки з цим рахунком пов’язані витрати."
+
+#. module: hr_expense_invoice
+#. odoo-python
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+msgid ""
+"You cannot create accounting entries for an expense                         "
+"report without expenses."
+msgstr ""
+"Не можна створювати бухгалтерські проведення для звіту про витрати без "
+"витрат."

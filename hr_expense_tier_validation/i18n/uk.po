@@ -104,3 +104,19 @@ msgstr "Мій звіт про витрати на перегляд"
 #: model:ir.model,name:hr_expense_tier_validation.model_tier_validation_exception
 msgid "Tier Validation Exceptions"
 msgstr "Винятки багаторівневої валідації"
+
+#. module: hr_expense_tier_validation
+#. odoo-python
+#: code:addons/hr_expense_tier_validation/models/hr_expense.py:0
+msgid ""
+"You are not allowed to write those fields %(validation_step)s validation.\n"
+"- %(not_allowed_fields_str)s\n"
+"\n"
+"Only those fields can be modified:\n"
+"- %(allowed_fields_str)s"
+msgstr ""
+"Вам не дозволено записувати такі поля %(validation_step)s перевірки.\n"
+"- %(not_allowed_fields_str)s\n"
+"\n"
+"Можна змінювати лише такі поля:\n"
+"- %(allowed_fields_str)s"

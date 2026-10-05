@@ -125,3 +125,96 @@ msgstr "Створити нового відповідального за дрі
 #: model:ir.model.constraint,message:hr_expense_petty_cash.constraint_petty_cash_partner_uniq
 msgid "Petty Cash Holder must be unique!"
 msgstr "Власник дрібної готівки має бути унікальним!"
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/account_move.py:0
+msgid "%s is not a petty cash holder"
+msgstr "%s не є власником дрібної каси"
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/account_move.py:0
+msgid "Account on invoice line should be {name}."
+msgstr "Рахунок у рядку рахунку-фактури має бути {name}."
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/hr_expense_sheet.py:0
+msgid "Journal entries"
+msgstr "Проведення журналу"
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/hr_expense_sheet.py:0
+msgid ""
+"Not enough money in petty cash holder.\n"
+"You are requesting {amount_company}{symbol}, but the balance is {balance}{symbol}."
+msgstr ""
+"Недостатньо коштів у власника дрібної каси.\n"
+"Ви запитуєте {amount_company}{symbol}, але баланс становить {balance}{symbol}."
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/account_move.py:0
+msgid ""
+"Petty Cash balance is {balance} {symbol}.\n"
+"Max amount to add is {max_amount} {symbol}."
+msgstr ""
+"Баланс дрібної каси: {balance} {symbol}.\n"
+"Максимальна сума для додавання: {max_amount} {symbol}."
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/account_move.py:0
+msgid "Please check Petty Cash on {name}."
+msgstr "Перевірте дрібну касу для {name}."
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/account_move.py:0
+msgid "Please select petty cash holder"
+msgstr "Виберіть власника дрібної каси"
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/hr_expense.py:0
+msgid "You can not create report without category."
+msgstr "Не можна створити звіт без категорії."
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/hr_expense.py:0
+#: code:addons/hr_expense_petty_cash/models/hr_expense_sheet.py:0
+msgid "You cannot create report from many petty cash holders."
+msgstr "Не можна створити звіт для кількох відповідальних за дрібну касу."
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/hr_expense.py:0
+msgid "You cannot report expenses for different companies in the same report."
+msgstr "Не можна звітувати про витрати різних компаній в одному звіті."
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/hr_expense.py:0
+msgid "You cannot report expenses for different employees in the same report."
+msgstr "Не можна звітувати про витрати різних працівників в одному звіті."
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/hr_expense.py:0
+msgid "You cannot report the expenses without amount!"
+msgstr "Не можна звітувати про витрати без суми!"
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/hr_expense.py:0
+msgid "You cannot report twice the same line!"
+msgstr "Не можна двічі звітувати про той самий рядок!"
+
+#. module: hr_expense_petty_cash
+#. odoo-python
+#: code:addons/hr_expense_petty_cash/models/account_move.py:0
+msgid "{name} with petty cash checked must contain only 1 line."
+msgstr "{name} з увімкненою дрібною касою має містити лише 1 рядок."

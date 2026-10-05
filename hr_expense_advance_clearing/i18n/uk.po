@@ -278,3 +278,79 @@ msgstr "Показувати посилання на повернення ава
 #: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_expense_sheet__advance_sheet_id
 msgid "Show remaining advance of this employee"
 msgstr "Показувати залишок авансу цього працівника"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py:0
+msgid "Advance clearing must not contain any advance expense line"
+msgstr "Очищення авансу не повинно містити рядків авансових витрат"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py:0
+msgid "Advance must contain only advance expense line"
+msgstr "Аванс має містити лише рядок авансових витрат"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py:0
+msgid "Advance: %(name)s has no amount to clear"
+msgstr "Аванс: %(name)s не має суми для закриття"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py:0
+msgid "Clearing Sheets"
+msgstr "Аркуші погашення"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+msgid "Employee advance product has no payable account"
+msgstr "Товар авансу працівнику не має рахунку кредиторської заборгованості"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+msgid "Employee advance, account must be the same payable account"
+msgstr ""
+"Аванс працівнику: рахунок має бути тим самим рахунком кредиторської "
+"заборгованості"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+msgid "Employee advance, all taxes must be removed"
+msgstr "Аванс працівнику: усі податки потрібно видалити"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+msgid "Employee advance, paid by must be employee"
+msgstr "Аванс працівнику: платником має бути працівник"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+msgid "Employee advance, selected product is not valid"
+msgstr "Аванс працівнику: вибраний товар недійсний"
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/models/account_move.py:0
+msgid ""
+"This operation is not allowed as some advance amount was already cleared/returned.\n"
+"Please cancel those documents first."
+msgstr ""
+"Ця операція не дозволена, оскільки частину авансу вже зараховано/повернено.\n"
+"Спочатку скасуйте ці документи."
+
+#. module: hr_expense_advance_clearing
+#. odoo-python
+#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py:0
+msgid ""
+"You cannot return advance more than actual remaining "
+"(%(symbol)s%(amount)s)%(more_info)s"
+msgstr ""
+"Не можна повернути аванс у сумі, більшій за фактичний залишок "
+"(%(symbol)s%(amount)s)%(more_info)s"
